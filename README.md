@@ -16,22 +16,33 @@ data to answer real commercial and risk-management questions.
 
 ## Key findings
 
-- Prices fall systematically in July–August (up to -7.6% in corn) and rebound 
-  in September (+5.8% to +6.2%), aligned with the Northern Hemisphere yield 
-  definition and harvest calendar.
-- Correlation between crops is moderate (0.34–0.54); corn-soybean and corn-wheat 
-  move more closely than soybean-wheat, consistent with shared planting seasons.
-- Argentine yield correlates strongly with Chicago price (-0.65 to -0.83), but 
-  total production much less so (-0.08 to -0.64) — evidence that yield captures 
-  a shared regional/global climate factor rather than Argentina alone driving 
-  world prices.
-- Wheat hit its historical volatility peak in 2022 (52% annualized) amid the 
-  Russia-Ukraine war; corn peaked in 2021 (36%) alongside exceptional Chinese demand.
-- Hedging soybeans in January 2022 would have given up a 25.2% price increase 
-  by harvest — a reminder that hedging value lies in certainty, not in 
-  predicting price direction.
+![Seasonality heatmap](images/01_estacionalidad_heatmap.png)
 
-*(Ver detalle completo, gráficos y limitaciones en el notebook)*
+Prices fall systematically in July–August (up to -7.6% in corn) and rebound 
+in September (+5.8% to +6.2%), aligned with the Northern Hemisphere yield 
+definition and harvest calendar.
+
+![Correlation heatmap](images/02_correlacion_heatmap.png)
+
+Correlation between crops is moderate (0.34–0.54). Corn-soybean and corn-wheat 
+move more closely together (0.54) than soybean-wheat (0.34), consistent with 
+shared planting seasons in Argentina.
+
+Argentine yield correlates strongly with the Chicago price (-0.65 to -0.83), 
+but total production much less so (-0.08 to -0.64) — evidence that yield 
+captures a shared regional/global climate factor rather than Argentina alone 
+driving world prices.
+
+![Volatility by year](images/03_volatilidad_lineas.png)
+
+Wheat hit its historical volatility peak in 2022 (52% annualized) amid the 
+Russia-Ukraine war; corn peaked in 2021 (36%) alongside exceptional Chinese demand.
+
+Hedging soybeans in January 2022 would have given up a 25.2% price increase 
+by harvest — a reminder that hedging value lies in the certainty it provides 
+at decision time, not in predicting price direction.
+
+*(Full detail, statistics, and business conclusions in the notebook)*
 
 ## Applied background
 
@@ -73,20 +84,16 @@ or campaign window) to a common clean dataset.
 - Scope limited to national-level data for three crops; excludes provincial/
   departmental breakdown and livestock markets.
 
+## How to run
+
+1. Open `ProyectoEtapaUnoBCR.ipynb` in Google Colab
+2. Run all cells (`Runtime` → `Run all`)
+3. Mount your own Google Drive when prompted, and adjust the file paths 
+   in the MAGyP data-loading cell to your own folder structure
+
 ## Repository structure
-
-\```
-├── notebooks/
-│   └── analisis_commodities.ipynb
-├── data/
-│   ├── raw/          # original files, untouched
-│   └── processed/    # cleaned datasets ready for analysis
-├── images/            # exported charts
-└── README.md
-\```
-
 ## Author
 
 Roberto Pereira — Data Analytics transitioning into Analytics Engineering / 
 Supply Chain Analytics, with a focus on agroindustrial and logistics decision-making.
-[LinkedIn](tu-link) · [GitHub](tu-link)
+[LinkedIn](www.linkedin.com/in/roberto-josé-pereira-ochoa-4553982b7) · [GitHub](rjpereiradata/agro-commodities-price-analysis)
