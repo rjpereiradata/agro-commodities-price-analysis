@@ -92,8 +92,12 @@ or campaign window) to a common clean dataset.
    in the MAGyP data-loading cell to your own folder structure
 
 ## Repository structure
+- `ProyectoEtapaUnoBCR.ipynb` — main notebook
+- `images/` — exported charts (seasonality, correlation, volatility)
+- `README.md`
+  
 ## Author
 
 Roberto Pereira — Data Analytics transitioning into Analytics Engineering / 
-Supply Chain Analytics, with a focus on agroindustrial and logistics decision-making.
-[LinkedIn](www.linkedin.com/in/roberto-josé-pereira-ochoa-4553982b7) · [GitHub](rjpereiradata/agro-commodities-price-analysis)
+Supply Chain Analytics, with a focus on agroindustrial and logistics decision-making. 
+[LinkedIn](https://www.linkedin.com/in/roberto-jos%C3%A9-pereira-ochoa-4553982b7) · [GitHub](https://github.com/rjpereiradata)
